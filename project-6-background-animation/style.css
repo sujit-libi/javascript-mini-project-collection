@@ -2,8 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: azure;
   cursor: grabbing;
+}
+
+body {
+  background-color: azure;
 }
 
 .container {
@@ -28,7 +31,7 @@
 .container span::before {
   content: '';
   position: absolute;
-  background: url('https://wallpapercave.com/wp/wp2487392.jpg');
+  background: #333 url('https://wallpapercave.com/wp/wp2487392.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
